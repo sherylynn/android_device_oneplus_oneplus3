@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_oneplus3.mk
+    $(LOCAL_DIR)/maru_oneplus3.mk
+    #$(LOCAL_DIR)/lineage_oneplus3.mk \
+
+COMMON_LUNCH_CHOICES := \
+	maru_oneplus3-userdebug \
+	maru_oneplus3-eng
